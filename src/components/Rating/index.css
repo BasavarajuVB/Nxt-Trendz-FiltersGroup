@@ -1,0 +1,16 @@
+.list-rating {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.rating-img {
+  width: 160px;
+}

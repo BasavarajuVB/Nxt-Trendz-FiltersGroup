@@ -1,0 +1,16 @@
+li {
+  list-style-type: none;
+}
+.button {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 0px;
+  color: #475569;
+  font-weight: 600;
+ padding-bottom: 0;
+}
+p{
+  padding-bottom: 0;
+}

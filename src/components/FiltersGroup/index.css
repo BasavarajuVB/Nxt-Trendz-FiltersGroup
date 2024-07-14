@@ -1,0 +1,64 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.input-search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f1f5f9;
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+@media screen and (min-width: 700px) {
+  .input-search-container {
+    margin-top: 12px;
+  }
+}
+.inputEl {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  font-family: 'roboto';
+}
+.catogery-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.catogery-heading {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #000;
+}
+ul {
+  padding-left: 0;
+}
+.rating-heading {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #000;
+}
+.filter-button{
+  outline: none;
+  background-color: transparent;
+  padding: 5px;
+  border: 2px solid #0967d2;
+  border-radius: 4px;
+  color: #0967d2;
+  font-family: 'roboto';
+  cursor: pointer;
+  font-weight: 600;
+}
